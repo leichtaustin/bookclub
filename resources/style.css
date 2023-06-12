@@ -4,7 +4,7 @@ html {
 
 .main_content {
     position: relative;
-    top: 6rem;
+    top: 8rem;
 }
 
 /* Header Section */
@@ -48,7 +48,25 @@ nav span {
 
 /* About Section */
 
+.about_section {
+    display: flex;
+    border: solid 1px #c6c1c1;
+    justify-content: center;
+}
+
+.about_content {
+    text-align: center;
+    width: 30%;
+    font-size: 2rem;
+}
+
+/* Main Body Grid */
+
+
+
+/* Footer Section */
+
 footer {
     position: relative;
-    top: 6rem;
+    top: 8rem;
 }
