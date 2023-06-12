@@ -2,11 +2,14 @@ html {
     font-family: 'Roboto', Arial, sans-serif;
 }
 
+.main_content {
+    position: relative;
+    top: 6rem;
+}
+
 /* Header Section */
 
-
-
-/* header {
+header {
     position: fixed;
     z-index: 100;
     width: 100%;
@@ -23,5 +26,29 @@ html {
 }
 
 .logo img {
-    width: 25%;
-} */
+    width: 200px;
+    border: solid 1px #c6c1c1;
+}
+
+.page_title {
+    border: solid 1px #c6c1c1;
+
+
+}
+
+header nav {
+    display: flex;
+    border: solid 1px #c6c1c1;
+}
+
+nav span {
+    padding: 0px 12px;
+}
+
+
+/* About Section */
+
+footer {
+    position: relative;
+    top: 6rem;
+}
