@@ -45,6 +45,19 @@ nav span {
     padding: 0px 12px;
 }
 
+@media only screen and (max-width: 800px) {
+    .logo img {
+        display: none;
+    }
+    .page_title {
+        display: none;
+    }
+
+    .header_container {
+        justify-content: center;
+    }
+}
+
 
 /* About Section */
 
@@ -58,6 +71,13 @@ nav span {
     text-align: center;
     width: 30%;
     font-size: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .about_content {
+        font-size: 1rem;
+        width: 100%;
+    }
 }
 
 /* Main Body Grid */
