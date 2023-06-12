@@ -1,0 +1,27 @@
+html {
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* Header Section */
+
+
+
+/* header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: solid 1px #c6c1c1;
+    background-color:lightblue;
+}
+
+.header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.logo img {
+    width: 25%;
+} */
